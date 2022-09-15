@@ -5,13 +5,22 @@ import numpy as np
 
 st.title('Havbøye prosjekt')
 
-csvfile = 'Innhenttest.csv'
-delimiter = ','
+df = pd.read_csv("dir/Innhenttest.csv")
 
-def open_with_python_csv(Innhenttest):
-    data = []
-    with open(Innhenttest, 'a') as Innhenttest:
-        reader = csv.reader(Innhenttest, delimiter=delimiter)
+@st.cache
+def convert_df(df):
+   return df.to_csv().encode('utf-8')
+
+
+csv = convert_df(df)
+
+st.download_button(
+   "Press to Download",
+   csv,
+   "file.csv",
+   "text/csv",
+   key='download-csv'
+)
 
 def start():
     file=open("Innhenttest.csv","a")
