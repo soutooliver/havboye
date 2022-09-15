@@ -1,7 +1,6 @@
 import streamlit
 import pandas as pd
 import numpy as np
-from utime import ticks_ms, sleep
 
 st.title("havboye")
 
