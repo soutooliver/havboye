@@ -6,4 +6,4 @@ def start():
     file.flush()
     file.close()
     
-start
+start(3)
