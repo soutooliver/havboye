@@ -7,7 +7,7 @@ st.title('Havbøye prosjekt')
 
 def start():
     file=open("Innhenttest.csv","a")
-    file.flush()
+    file.flush(1)
     file.close()
     
 start()
