@@ -7,9 +7,10 @@ st.title('Havbøye prosjekt')
 
 st.write("Innhenttest.csv")
 
-code = '''def hello():
-    print("Hello, Streamlit!")'''
-st.code(code, language='python')
+if st.button('klikk mej'):
+    st.write('negro')
+else:
+    st.write('negro child')
 
 def start():
     file=open("Innhenttest.csv","a")
