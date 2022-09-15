@@ -6,7 +6,6 @@ st.title('Havbøye prosjekt 2022')
 
 def start():
     file=open("Innhenttest.csv","a")
-    file.write(str(response)+",")
     file.flush()
     file.close()
     
