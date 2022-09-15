@@ -7,4 +7,4 @@ st.title('Havbøye prosjekt')
 st.write("Innhenttest.csv")
 
 st.file_uploader("Innhenttest.csv")
-st.file_print
+
