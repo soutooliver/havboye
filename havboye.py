@@ -9,9 +9,4 @@ def start():
     file.flush()
     file.close()
     
-def file = 'Innhenttest.csv'
-df = pd.read_csv(file,index_col=0)
-
-print(df.head(5))
-    
 start()
