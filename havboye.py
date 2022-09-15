@@ -5,7 +5,7 @@ import numpy as np
 
 st.title('Havbøye prosjekt')
 
-st.write(func)
+st.write("Innhenttest.csv")
 
 def start():
     file=open("Innhenttest.csv","a")
