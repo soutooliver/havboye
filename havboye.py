@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-st.title('havboye')
+st.title('Havbøye prosjekt 2022')
 
 def start():
     response=send_at_get_resp("AT+CGNSINF")
