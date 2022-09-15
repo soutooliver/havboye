@@ -10,7 +10,7 @@ delimiter = ','
 
 def open_with_python_csv(Innhenttest):
     data = []
-    with open(Innhenttest, 'r') as Innhenttest:
+    with open(Innhenttest, 'a') as Innhenttest:
         reader = csv.reader(Innhenttest, delimiter=delimiter)
 
 def start():
