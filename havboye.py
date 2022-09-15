@@ -2,7 +2,6 @@ import streamlit
 import pandas as pd
 import numpy as np
 
-st.title("havboye")
 
 '''
 Send an AT command - return True if we got an expected
