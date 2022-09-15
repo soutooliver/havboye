@@ -7,3 +7,4 @@ def start():
     file.flush()
     file.close()
     
+start
