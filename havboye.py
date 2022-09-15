@@ -7,6 +7,8 @@ st.title('Havbøye prosjekt')
 
 st.write("Innhenttest.csv")
 
+st.file_uploader("Innhenttest.csv")
+
 def start():
     file=open("Innhenttest.csv","a")
     file.flush()
