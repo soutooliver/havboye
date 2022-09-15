@@ -9,9 +9,8 @@ def start():
     file.flush()
     file.close()
     
-    url = 'https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/all/all.csv'
-df = pd.read_csv(url,index_col=0)
-#df = pd.read_csv(url)
+    file = 'Innhenttest.csv'
+df = pd.read_csv(file,index_col=0)
 
 print(df.head(5))
     
