@@ -6,6 +6,7 @@ st.title('Havbøye prosjekt')
 
 def start():
     file=open("Innhenttest.csv","a")
+    file.print()
     file.flush()
     file.close()
     
