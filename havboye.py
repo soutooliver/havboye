@@ -4,4 +4,8 @@ import pandas as pd
 import numpy as np
 
 st.title('Havbøye prosjekt')
-st.write("It's lit. Bussen e parkert")
+
+if st.button('KLIKK MEG'):
+    st.write('Du e mad goofy hahahah')
+else:
+    st.write('Goodbye')
