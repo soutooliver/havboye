@@ -22,3 +22,9 @@ if upload_file is not None:
    # Create a section for the dataframe header
    st.header('Informasjon')
    st.write(df.head())
+
+   df = pd.DataFrame(
+    np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
+    columns=['lat', 'lon'])
+
+st.map(df)
