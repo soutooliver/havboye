@@ -20,12 +20,5 @@ if upload_file is not None:
    st.header('Statistikk om havbøya')
    st.write(df.describe())
    # Create a section for the dataframe header
-   st.header('Dope brah')
+   st.header('Informasjon')
    st.write(df.head())
-   # Create a section for matplotlib figure
-   st.header('Plot of Data')
-   fig, ax = plt.subplots(1,1)
-   ax.scatter(x=df['Depth'], y=df['Magnitude'])
-   ax.set_xlabel('Depth')
-   ax.set_ylabel('Magnitude')
-   st.pyplot(fig)
