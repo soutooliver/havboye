@@ -5,8 +5,6 @@ import numpy as np
 
 st.title('Havbøye prosjekt')
 
-
-
 # Add a title and intro text
 st.text('Denne nettsida viser til informasjon om havbøya')
 # Create file uploader object
