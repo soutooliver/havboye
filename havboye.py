@@ -24,7 +24,7 @@ if upload_file is not None:
    st.write(df.head())
 
    df = pd.DataFrame(
-    np.random.randn[50, 50] + [62.3433, 5.8488],
+    np.random.randn(0, 2) / [50, 50] + [62.3433, 5.8488],
     columns=['lat', 'lon'])
 
 st.map(df)
