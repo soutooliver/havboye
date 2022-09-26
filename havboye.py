@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 import requests
 
-st.title('Havbøye prosjekt')
-
 url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
 request = requests.get(url)
 print(request.text)
+
+st.title('Havbøye prosjekt')
 
 # Add a title and intro text
 st.text('Denne nettsida viser til informasjon om havbøya')
