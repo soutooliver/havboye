@@ -6,7 +6,7 @@ import requests
 
 st.title('Havbøye prosjekt')
 
-url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt
+url = 'http://sensor.marin.ntnu.no/logs/Ulstein12345.txt'
 request = requests.get(url)
 print(request.text)
 
