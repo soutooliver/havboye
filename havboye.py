@@ -29,5 +29,3 @@ if upload_file is not None:
    df = pd.DataFrame(
     np.random.randn(1, 2) / [50, 50] + [62.3433, 5.8488],
     columns=['lat', 'lon'])
-
-df.map
