@@ -27,5 +27,7 @@ if upload_file is not None:
    st.write(df.head())
 
    df = pd.DataFrame(
+      {
+         "Første kollone": [1,2,3,4],
     np.random.randn(1, 2) / [50, 50] + [62.3433, 5.8488],
     columns=['lat', 'lon'])
