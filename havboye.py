@@ -1,4 +1,3 @@
-
 import csv
 import streamlit as st
 import pandas as pd
@@ -16,6 +15,7 @@ st.map(df)
 
 st.text("Test")
 
+'''
 url = 'http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt'
 request = requests.get(url)
 print(request.text)
@@ -41,3 +41,4 @@ if upload_file is not None:
    df = pd.DataFrame(
     np.random.randn(1, 2) / [50, 50] + [62.3433, 5.8488],
     columns=['lat', 'lon'])
+'''
