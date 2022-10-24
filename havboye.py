@@ -13,7 +13,7 @@ df = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt", names = ['fi
 st.header('Informasjon om bøye 4')
 st.dataframe(df)
 
-st.pydeck_chart(pydeck_obj=None, use_container_width=False)
+st.pydeck_chart(pydeck_obj=df, use_container_width=False)
 
 st.text("Test")
 
