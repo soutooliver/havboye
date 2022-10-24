@@ -15,7 +15,7 @@ st.dataframe(df)
 
 st.pydeck_chart(pdk.Deck(
     map_style=None,
-    initial_view_state=pdk.ViewState)
+    initial_view_state=pdk.ViewState))
 
 st.text("Test")
 
