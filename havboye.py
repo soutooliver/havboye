@@ -18,7 +18,6 @@ df5 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB5.txt", names = ['fi
 
 st.header('Informasjon om bøye 1')
 st.dataframe(df1)
-col1.metric("Temperature", "70 °C", "1.2 °C")
 st.map(df1)
 
 st.header('Informasjon om bøye 2')
