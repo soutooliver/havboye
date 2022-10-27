@@ -15,7 +15,6 @@ st.dataframe(df)
 
 st.map(df)
 
-st.text("Test")
 
 '''
 url = 'http://sensor.marin.ntnu.no/logs/UlsteinGr4.txt'
