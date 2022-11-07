@@ -17,7 +17,7 @@ st.title('Havbøye prosjekt')
 #df4 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB4.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Teperature'])
 
 df5 = pd.read_csv("http://sensor.marin.ntnu.no/logs/UlsteinB5.txt", names = ['filename', 'power','location', 'time', 'lat', 'lon','Altitude','Speed','Course','Fix Mode','Reserved1','HDOP','PDOP','VDOP','Reserved2','GPS','GNSS','GLONASS','Reserved3','Teperature'])
-
+'''
 st.header('Informasjon om bøye 1')
 st.dataframe(df1)
 st.map(df1)
@@ -33,7 +33,7 @@ st.map(df3)
 st.header('Informasjon om bøye 4')
 st.dataframe(df4)
 st.map(df4)
-
+'''
 st.header('Informasjon om bøye 5')
 st.dataframe(df5)
 st.map(df5)
