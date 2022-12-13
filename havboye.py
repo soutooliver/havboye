@@ -4,6 +4,8 @@ import pandas as pd
 import numpy as np
 import requests
 
+st.markdown('<style>body{background-color: white;}</style>', unsafe_allow_html=True)
+
 headers = []
 
 st.title('Havbøye prosjekt')
